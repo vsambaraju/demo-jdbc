@@ -35,7 +35,7 @@ public class DemoJdbcApplication {
 		return studentJdbcRepository.findAll();
 	}
 
-	@GetMapping("/Quote")
+	@GetMapping("/quote")
 	public Quote getQuote(){
 		final String link = "http://gturnquist-quoters.cfapps.io/api/random";
 
